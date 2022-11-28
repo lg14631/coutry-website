@@ -1,0 +1,114 @@
+/*
+   
+   selector {
+
+       PROPERTY: VALUE;
+       PROPERTY: VALUE:
+       etc.......
+
+   }
+
+   writing selector:
+
+   tagname      selects all tags of a given type 
+   /classname   selects all mebers of a fiven class
+   tagname.classname selects only tags are also members of a given class
+
+   > child symbol
+
+   tagname> tagname
+   tagname>.classname
+    .classname>.classname 
+    .classname>.tagname
+
+img
+
+img{
+   
+}
+
+img{
+    display block
+    with 30%
+    height auto
+    margin auto
+}
+
+back round
+
+body {
+ nackground image url ()
+back ground repeat no repeat
+back ground size cover
+}
+round
+border radiys 10px
+
+*/
+
+.nav {
+
+    list-style: square;
+
+    border-style: solid;
+
+    text-align: center;
+
+    padding-left: 0%;
+
+    width: 50%;
+
+    margin: auto;
+
+    color: teal;
+}
+
+
+.nav>li{
+   width: 25%;
+
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+body {
+    background-image: url(imges/Japanflag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.factpic {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+
+.v {
+    display: inline-block;
+    width: 20%;
+    margin-left: 10%;
+}
+
+
+.p1 {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+
+
+
+p {
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+}
