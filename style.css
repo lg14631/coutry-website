@@ -60,7 +60,7 @@ border radiys 10px
 
     margin: auto;
 
-    color: teal;
+   
 }
 
 
@@ -68,6 +68,11 @@ border radiys 10px
    width: 25%;
 
     display: inline-block;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: red;
 }
 
 h1 {
